@@ -46,3 +46,5 @@ try:
         sleep(60) # Read the temperature every 5 sec, increase or decrease this limit if you want
 except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
     GPIO.cleanup() # resets all GPIO ports used by this program
+    
+    #This was one of my first projects on the pi and I no longer have the source of the code I used, therefore I do not claim this entire snippet of code is mine
